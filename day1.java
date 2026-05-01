@@ -1,11 +1,13 @@
+import java.util.Scanner;
 class day1{
     public static void main(String[] args) {
-        String s = "abc";
-        //System.out.print(s);
-        
-        String a = new String("abc");
-        System.out.println(a);
-        System.out.println(s==a);
-        System.out.println(s.equals(a));
-            }
+Scanner sc = new Scanner(System.in);
+int x = sc.nextInt();
+if(x > 0)
+  System.out.print("Positive");
+else if(x == 0)
+  System.out.print("Zero");
+else
+  System.out.print("Negative");
 } 
+}
