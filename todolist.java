@@ -1,27 +1,31 @@
 import java.util.Scanner;
-   // coding for the todo listt
+
 class todolist {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your task: ");
-        String s = sc.nextLine();
 
         todolist x = new todolist();
-        todo obj = x.new todo();  
+        todo obj = x.new todo();
 
-        obj.list(s);   
+        obj.list(sc);
     }
 
     class todo {
-        void list(String s) { 
-            if (s.isBlank()) {
-                System.out.println("Task not entered");
-                return;
-            } else {
-                System.out.println("Your Task: " + s);
-            }
+        void list(Scanner sc) {
 
-            System.out.println("Thank you for entering the task");
+            System.out.print("Enter task 1: ");
+            String task1 = sc.nextLine();
+
+            System.out.print("Enter task 2: ");
+            String task2 = sc.nextLine();
+
+            System.out.print("Enter task 3: ");
+            String task3 = sc.nextLine();
+
+            System.out.println("Your To-Do List:");
+            System.out.println("1. " + task1);
+            System.out.println("2. " + task2);
+            System.out.println("3. " + task3);
         }
     }
 }
