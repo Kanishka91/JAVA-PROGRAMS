@@ -12,5 +12,8 @@ class arradd{
         System.out.println(arr);
         arr.remove(1);
         System.out.println(arr);
+        System.out.println(arr.contains(5));
+        System.out.println(arr.contains(2));
+
     }
 }
