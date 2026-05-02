@@ -1,5 +1,5 @@
 import java.util.Arrays;
-class copyof{
+class copy1{
     public static void main(String[] args) {
         int a[] = {10,20,30,40,50};
         int b[] = new int[5];
