@@ -45,13 +45,11 @@ public class tan1 {
         System.out.println("sqrt(a) = " + Math.sqrt(a));
         System.out.println("cbrt(a) = " + Math.cbrt(a));        
     
-        System.out.println("pow(a, 2) = " + Math.pow(a, 2));
-
+        System.out.println("pow(a, 2) = " + Math.pow(a, 3));
+         System.out.println("Log Value: " + Math.log(10));
     
         System.out.println("floor(a) = " + Math.floor(a));
         System.out.println("ceil(a) = " + Math.ceil(a));
-
-    
         System.out.println("round(a) = " + Math.round(a));
     }
 
